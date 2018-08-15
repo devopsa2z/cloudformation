@@ -1,0 +1,8 @@
+Resources:
+  EC2Instance:
+    Type: "AWS::EC2::Instance"
+    Properties:
+      ImageId: ami-759bc50a
+      InstanceType: t2.micro
+      KeyName: cloudformation-ec2
+      
